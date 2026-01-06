@@ -1,0 +1,31 @@
+[
+  {
+    "name": "API A",
+    "projectPath": "src/A.Infrastructure",
+    "startupProject": "src/A.Api",
+    "outputDir": "Database/Entities/Generated",
+    "contextDir": "Database/Context",
+    "contextName": "DefaultDbContext",
+    "schemas": {
+      "example": [
+        "my_table",
+        "my_other_table"
+      ],
+      "all_tables_in_schema": []
+    }
+  },
+  {
+    "name": "API B",
+    "projectPath": "src/B.Infrastructure",
+    "startupProject": "src/B.Api",
+    "outputDir": "Database/Entities/Generated",
+    "contextDir": "Database/Context",
+    "contextName": "NamedDbContext",
+    "schemas": {
+      "all_tables_in_schema": [],
+      "other_schema": [
+        "my_table"
+      ]
+    }
+  }
+]

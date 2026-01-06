@@ -1,0 +1,4 @@
+{
+  "DefaultDbContext": "Host=<your_host>;Port=<your_port>;Database=<your_database>;Username=<your_username>;Password=<your_password>;",
+  "NamedDbContext": "Name=<your_named_connection_string_from_appsettings_json>;"
+}
